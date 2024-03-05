@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "react-query";
-import { insertTask, getTasks, deleteTask } from "./api.requests";
+import { deleteTask, getTasks, insertTask } from "./api.requests";
 
 export const useTasksQuery = (select) => {
   return useQuery(
